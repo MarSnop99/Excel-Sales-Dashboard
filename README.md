@@ -1,25 +1,25 @@
-# Interaktywny Dashboard Sprzedaży w Excelu
+# Excel Sales Dashboard
 
 ![Podgląd Dashboardu](https://github.com/MarSnop99/-Excel-Sales-Dashboard/blob/main/Dashboard%20Screenshot.png?raw=true)
 
-## 1. Cel Biznesowy Projektu
-Celem projektu było przekształcenie surowego zbioru danych sprzedażowych w pełni interaktywne narzędzie analityczne. Dashboard pozwala na szybką identyfikację trendów, analizę wyników regionalnych oraz znalezienie najlepiej sprzedających się produktów.
+## 1. Project Objective
+The goal of this project was to transform a raw sales dataset into a fully interactive analytical tool. The dashboard enables quick trend identification, regional performance analysis, and the discovery of top-selling products.
 
-## 2. Użyte Technologie
-*   **MS Excel**
-*   **Power Query:** do procesów ETL (Extract, Transform, Load) - czyszczenia, łączenia i transformacji danych.
-*   **Tabele Przestawne:** jako silnik obliczeniowy dla raportu.
-*   **Wykresy Przestawne i Fragmentatory:** do stworzenia warstwy wizualnej i interaktywnej.
+## 2. Technologies Used
+MS Excel
+Power Query: Used for ETL processes (Extract, Transform, Load) – data cleaning, merging, and transformation.
+Pivot Tables: Served as the calculation engine for the report.
+Pivot Charts and Slicers: Used to create the visual and interactive layer.
 
-## 3. Proces Realizacji
-1.  **ETL:** Dane zostały zaimportowane do Power Query, gdzie przeszły proces czyszczenia (usunięcie błędów, standaryzacja formatów) i transformacji (dodanie kolumn z nazwą miesiąca, dniem tygodnia).
-2.  **Analiza:** Oczyszczone dane posłużyły do stworzenia serii tabel przestawnych, agregujących dane według kluczowych wymiarów (czas, region, produkt).
-3.  **Wizualizacja:** Na podstawie tabel przestawnych zbudowano interaktywny dashboard z dynamicznymi filtrami (fragmentatorami), które kontrolują wszystkie wykresy jednocześnie.
+## 3. Implementation Process
+ETL: Data was imported into Power Query, where it underwent cleaning (error removal, format standardization) and transformation (adding columns for month names and days of the week).
+Analysis: The cleaned data was used to create a series of Pivot Tables, aggregating data by key dimensions (time, region, product).
+Visualization: Based on the Pivot Tables, an interactive dashboard was built featuring dynamic filters (Slicers) that control all charts simultaneously.
 
-## 4. Główne Wnioski z Analizy
-*   Najwyższa sprzedaż jest notowana w regionach wschodnim i zachodnim.
-*   Najwyższa sprzedaż jest notowana pod koniec roku. 
-*   Najgorszym miesiącem jest luty, a najgorszym dniem tygodnia czwartek.
+## 4. Key Insights
+The highest sales figures are recorded in the Eastern and Western regions.
+Sales peak towards the end of the year.
+February is the lowest-performing month, and Thursday is the lowest-performing day of the week.
 
-## 5. Jak Używać
-Pobierz plik `.xlsx`, włącz edycję i korzystaj z fragmentatorów na arkuszu "Dashboard" do dynamicznego filtrowania danych.
+## 5. Usage
+Download the .xlsx file, click "Enable Editing", and use the Slicers on the "Dashboard" sheet to dynamically filter the data.
